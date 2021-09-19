@@ -142,3 +142,11 @@ header {
     text-align: center;
     
 }
+
+.blog-ow {
+    padding: 3rem;
+    background-color: var(--offwhite);
+    border-radius: 2rem;
+    margin: auto;
+    max-height: 250px;
+}
