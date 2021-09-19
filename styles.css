@@ -48,9 +48,12 @@ body {
     font-weight: bolder;
 }
 
+span {
+    color: var(--pdark);
+}
+
 header {
     background-color: var(--bg-color);
-    border: black;
     padding: 4rem;
     margin: 2rem;
     font-weight: bold;
@@ -78,10 +81,10 @@ header {
     text-align: center;
 }
 
-.projects-btn {
+.primary-btn {
     text-decoration-line: none;
     background-color: var(--pdark);
-    padding: 1rem;
+    padding: .7rem;
     border-radius: 2rem;
     color: white;
     
@@ -94,7 +97,7 @@ header {
     text-align: center;
 }
 
-.blogs-btn {
+.secondary-btn {
     text-decoration-line: none;
     background-color: white;
     padding: .7rem;
@@ -122,4 +125,20 @@ header {
     color: white;
     text-decoration-line: none;
     padding: 2rem;
+}
+
+.project-ow {
+    padding: 1rem;
+    background-color: var(--offwhite);
+    border-radius: 2rem;
+    margin: auto;
+    max-height: 250px;
+    text-align: center;
+}
+
+.project-w {
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    
 }
