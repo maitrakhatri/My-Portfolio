@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+
+:root {
+    --bg-color: white;
+    --plight: #93C5FD;
+    --pdark: #60A5FA;
+    --pfont: Lato;
+    --offwhite: #D1D5DB;
+
+}
+
+body {
+        background-color: var(--bg-color);
+        font-family: var(--pfont)
+}
+
+.navbar {
+    background-color: var(--pdark);
+    max-height: 200px;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.nav-header {
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    text-decoration-line: none;
+    font-weight: bold;
+    padding-left: 1rem ;
+}
+
+.unordered {
+    list-style: none;
+    padding: 1rem;
+}
+
+.unordered .links {
+    padding: 1rem;
+    color: white;
+    text-decoration-line: none;
+    font-size: 1rem;
+    float: right;
+}
+
+header {
+    background-color: var(--bg-color);
+    border: black;
+    padding: 4rem;
+    margin: 2rem;
+}
+
+.image {
+    max-width: 250px;
+    float: left;
+    padding-right: 2rem;
+}
+
+.header-title {
+    color: var(--pdark);
+}
+
+.tech {
+    padding: 1rem;
+    margin: 2rem;
+    background-color: var(--offwhite);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.projects {
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+.projects-btn {
+    text-decoration-line: none;
+    background-color: var(--pdark);
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+    
+}
+
+.blogs {
+    padding: 1rem;
+    margin: 2rem;
+    background-color: var(--offwhite);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.blogs-btn {
+    text-decoration-line: none;
+    background-color: white;
+    padding: .7rem;
+    border-radius: 2rem;
+    color: var(--pdark);
+    border-style: solid;
+    border-width: thin;
+    margin: 1rem;
+}
+
+.footer {
+    background-color: var(--pdark);
+    max-height: 125px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    text-align: center;
+}
+
+.footer-title {
+    color: white;
+
+}
+
+.footer-links {
+    color: white;
+    text-decoration-line: none;
+    padding: 2rem;
+}
