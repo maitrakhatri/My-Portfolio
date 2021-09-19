@@ -41,6 +41,11 @@ body {
     text-decoration-line: none;
     font-size: 1rem;
     float: right;
+    font-size: 1.1rem;
+}
+
+#active {
+    font-weight: bolder;
 }
 
 header {
@@ -48,12 +53,14 @@ header {
     border: black;
     padding: 4rem;
     margin: 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .image {
     max-width: 250px;
     float: left;
-    padding-right: 2rem;
+    padding-right: 10rem;
 }
 
 .header-title {
@@ -62,15 +69,12 @@ header {
 
 .tech {
     padding: 1rem;
-    margin: 2rem;
     background-color: var(--offwhite);
-    border-radius: 1rem;
     text-align: center;
 }
 
 .projects {
     padding: 1rem;
-    margin: 2rem;
     text-align: center;
 }
 
@@ -85,9 +89,8 @@ header {
 
 .blogs {
     padding: 1rem;
-    margin: 2rem;
+    margin-top: 1rem;
     background-color: var(--offwhite);
-    border-radius: 1rem;
     text-align: center;
 }
 
