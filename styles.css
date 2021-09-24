@@ -145,9 +145,9 @@ header {
     background-color: var(--offwhite);
     border-radius: 2rem;
     margin-bottom: 2rem;
-    /* max-height: 250px; */
     text-align: center;
-    margin-right: 2rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -163,3 +163,6 @@ ul {
     list-style: none;
 }
 
+.project-ow a {
+    font-size: small;
+}
