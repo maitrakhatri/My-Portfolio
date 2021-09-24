@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
 
 :root {
-    --bg-color: white;
-    --plight: #93C5FD;
-    --pdark: #60A5FA;
+    --bg-color: #E1E2E5;
+    --pdark: #0E132D;
     --pfont: Lato;
-    --offwhite: #D1D5DB;
+    --offwhite: #0E132D;
 
 }
 
 body {
         background-color: var(--bg-color);
-        font-family: var(--pfont)
+        font-family: var(--pfont);
+        color: white;
+        
 }
 
 .navbar {
@@ -56,7 +57,7 @@ span {
 header {
     background-color: var(--bg-color);
     padding: 4rem;
-    margin: 2rem;
+    margin-bottom: 4rem;
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -65,11 +66,16 @@ header {
     max-width: 250px;
     float: left;
     padding-right: 10rem;
+    
 }
 
-.header-title {
+.header-title, .header-text {
+    margin-top: 3rem;
     color: var(--pdark);
+    
 }
+
+
 
 .tech {
     padding: 1rem;
@@ -80,6 +86,7 @@ header {
 .projects {
     padding: 1rem;
     text-align: center;
+    color: var(--pdark);
 }
 
 .primary-btn {
@@ -88,6 +95,10 @@ header {
     padding: .7rem;
     border-radius: 2rem;
     color: white;
+    border-style: solid;
+    border-color: var(--bg-color);
+    border-width: thin;
+    margin: 1rem;
     
 }
 
@@ -115,6 +126,7 @@ header {
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     text-align: center;
+    margin-top: 4rem;
 }
 
 .footer-title {
@@ -132,7 +144,7 @@ header {
     padding: 1rem;
     background-color: var(--offwhite);
     border-radius: 2rem;
-    margin: auto;
+    margin-bottom: 1re;
     max-height: 250px;
     text-align: center;
 }
@@ -141,7 +153,7 @@ header {
     padding: 1rem;
     border-radius: 2rem;
     text-align: center;
-    
+    color: var(--pdark);
 }
 
 .blog-ow {
@@ -151,3 +163,4 @@ header {
     margin: auto;
     max-height: 250px;
 }
+
