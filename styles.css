@@ -145,17 +145,11 @@ header {
     background-color: var(--offwhite);
     border-radius: 2rem;
     margin-bottom: 2rem;
-    max-height: 250px;
+    /* max-height: 250px; */
     text-align: center;
     margin-right: 2rem;
 }
 
-/* .project-w {
-    padding: 1rem;
-    border-radius: 2rem;
-    text-align: center;
-    color: var(--pdark);
-} */
 
 .blog-ow {
     padding: 3rem;
