@@ -91,10 +91,10 @@ header {
 
 .primary-btn {
     text-decoration-line: none;
-    background-color: var(--pdark);
+    background-color: white;
     padding: .7rem;
     border-radius: 2rem;
-    color: white;
+    color: var(--pdark);
     border-style: solid;
     border-color: var(--bg-color);
     border-width: thin;
@@ -111,10 +111,10 @@ header {
 
 .secondary-btn {
     text-decoration-line: none;
-    background-color: white;
+    background-color: var(--pdark);
     padding: .7rem;
     border-radius: 2rem;
-    color: var(--pdark);
+    color: white;
     border-style: solid;
     border-width: thin;
     margin: 1rem;
@@ -164,4 +164,10 @@ ul {
 
 .project-ow a {
     font-size: small;
+}
+
+.projects a {
+    background-color: var(--pdark);
+    color: white;
+    border: none;
 }
